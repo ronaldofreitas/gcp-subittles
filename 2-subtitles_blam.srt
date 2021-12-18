@@ -1,0 +1,84 @@
+1
+00:00:02,200 --> 00:00:03,400
+Já começou.
+
+2
+00:00:04,500 --> 00:00:05,800
+Então vamos lá.
+
+3
+00:00:06,700 --> 00:00:09,700
+como gravar um áudio de um minuto mais uma
+
+4
+00:00:09,700 --> 00:00:12,100
+vez eu tô tentando ver aqui
+
+5
+00:00:13,200 --> 00:00:16,700
+não serviços que a
+
+6
+00:00:16,700 --> 00:00:19,700
+gente pode contar para poder funcionar.
+
+7
+00:00:19,700 --> 00:00:22,900
+Vou dar um pause aqui de um segundo mais ou menos.
+
+8
+00:00:25,100 --> 00:00:26,200
+agora
+
+9
+00:00:30,100 --> 00:00:31,600
+volta a falar.
+
+10
+00:00:32,300 --> 00:00:33,700
+Opa celular
+
+11
+00:00:34,800 --> 00:00:37,000
+mas é só para testar mesmo,
+
+12
+00:00:37,000 --> 00:00:40,400
+até porque não eu tô desenvolvendo
+
+13
+00:00:40,400 --> 00:00:43,600
+aqui eu vou pegar o código
+
+14
+00:00:43,600 --> 00:00:45,700
+e vou tentar subir para o servidor
+
+15
+00:00:45,700 --> 00:00:48,900
+está as funcionalidades
+
+16
+00:00:48,900 --> 00:00:51,900
+que eu tô desenvolvendo baseado nesse
+
+17
+00:00:51,900 --> 00:00:54,600
+contrato de serviço
+
+18
+00:00:54,600 --> 00:00:57,900
+que estamos elaborando para a partir
+
+19
+00:00:57,900 --> 00:01:00,000
+de um minuto que começa agora
+
+20
+00:01:00,000 --> 00:01:02,200
+eu fazer mais um silêncio.
+
+21
+00:01:05,000 --> 00:01:07,900
+é um silêncio legal
+
