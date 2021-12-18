@@ -1,6 +1,7 @@
 #gs://catalobyte-output/1sPcgixNZobTGi1McrKK7UyaZUd2/o6h0z2g9c7/6681771295/1639832883748.flac
 
-from google.cloud import speech_v1
+#from google.cloud import speech_v1
+from google.cloud import speech
 from google.cloud.speech_v1 import enums
 from google.cloud.speech_v1 import types
 import subprocess
@@ -13,7 +14,7 @@ import srt
 
 def long_running_recognize(storage_uri):
     
-    client = speech_v1.SpeechClient()
+    client = speech.SpeechClient()
 
     config = {
         "language_code": "pt-BR",
@@ -21,6 +22,7 @@ def long_running_recognize(storage_uri):
         #"encoding": enums.RecognitionConfig.AudioEncoding.LINEAR16,
         "encoding": "FLAC",
         "audio_channel_count": 1,
+        "max_alternatives": 1,
         "enable_word_time_offsets": True,
         #"model": "video",
         "enable_automatic_punctuation":True
@@ -97,9 +99,6 @@ def subtitle_generation(response):
     
     # turn transcription list into subtitles
     subtitles = srt.compose(transcriptions)
-    #with open("subtitles.srt", "w") as f:
-    #    f.write(subtitles)
-
 
     return subtitles
 
